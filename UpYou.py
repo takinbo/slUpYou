@@ -60,7 +60,7 @@ class UpYou(object):
 
     def choose_file(self, *args):
         file_name = self.file_win.get_filename()
-        self.mainTree.get_widget('name_txt').set_text(file_name)
+        self.mainTree.get_widget('file_txt').set_text(file_name)
         self.file_win.hide()
 
     def cancel_file(self, *args):
